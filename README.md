@@ -2,8 +2,6 @@
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1DqmqokgSWt87hQ8QY33TccO_IRfQkBZb?usp=sharing)
 
-https://colab.research.google.com/drive/1DqmqokgSWt87hQ8QY33TccO_IRfQkBZb?usp=sharing
-
 ## Clone the repository
 
 ```bash
