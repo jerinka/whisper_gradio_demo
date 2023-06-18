@@ -17,8 +17,6 @@ source env/bin/activate
 pip install git+https://github.com/openai/whisper.git 
 pip install gradio
 python audio_transcription_app.py -s (-s for sharing, avoid for local alone)
-python record_stt.py (for record and speech to text)
-python live_transformer_stt.py (for live speech to text)
 ```
 
 ## Transformer based
@@ -32,7 +30,7 @@ python record_stt.py (for record and speech to text)
 python live_transformer_stt.py (for live speech to text)
 ```
 
-## Deep Speech
+## Deep Speech based 
 
 ```bash
 cd deep_speech_demo
