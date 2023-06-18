@@ -1,12 +1,13 @@
-from transformers import pipeline
 import gradio as gr
 import time
+import whisper
 
-p = pipeline("automatic-speech-recognition")
+model = whisper.load_model("base")
 
 def transcribe(audio, state=""):
     time.sleep(2)
-    text = p(audio)["text"]
+    result = model.transcribe(audio)
+    text = result["text"]
     state += text + " "
     return state, state
 

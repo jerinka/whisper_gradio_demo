@@ -2,9 +2,9 @@ import argparse
 import gradio as gr
 import whisper
 
+model = whisper.load_model("base")
 
 def transcribe_audio(audio_file):
-    model = whisper.load_model("base")
     result = model.transcribe(audio_file)
     return result["text"]
 
