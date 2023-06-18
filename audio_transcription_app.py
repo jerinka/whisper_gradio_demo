@@ -1,3 +1,4 @@
+import argparse
 import gradio as gr
 import whisper
 
@@ -8,7 +9,7 @@ def transcribe_audio(audio_file):
     return result["text"]
 
 
-def main():
+def main(share=False):
     audio_input = gr.inputs.Audio(source="upload", type="filepath")
     output_text = gr.outputs.Textbox()
     
@@ -17,8 +18,12 @@ def main():
                          description="Upload an audio file and hit the 'Submit'\
                              button")
     
-    iface.launch(share=False)
+    iface.launch(share=share)
 
 
 if __name__ == '__main__':
-    main()
+    parser = argparse.ArgumentParser()
+    parser.add_argument('-s','--share', action='store_true')
+    args = parser.parse_args()
+    share = args.share
+    main(share)

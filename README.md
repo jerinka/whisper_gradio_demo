@@ -14,5 +14,5 @@ python3 -m venv env
 source env/bin/activate
 pip install git+https://github.com/openai/whisper.git 
 pip install gradio
-python app.py
+python audio_transcription_app.py -s (-s for sharing, avoid for local alone)
 ```
