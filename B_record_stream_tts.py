@@ -4,15 +4,17 @@
 import argparse
 import gradio as gr
 
-import whisper
-model = whisper.load_model("base")
+from stt_engine import whisper_stt
+
+stt_obj = whisper_stt()
 
 def transcribe(audio):
     # text = p(audio)["text"]
-    result = model.transcribe(audio)
-    return result["text"]
+    text = stt_obj.stt(audio)
+    return text
 
 def main(share=False):
+    
     gr.Interface(
         fn=transcribe, 
         inputs=gr.Audio(source="microphone", type="filepath"), 
