@@ -1,13 +1,12 @@
 import gradio as gr
 import time
-import whisper
+from stt_engine import whisper_stt
 
-model = whisper.load_model("base")
+stt_obj = whisper_stt()
 
 def transcribe(audio, state=""):
     time.sleep(2)
-    result = model.transcribe(audio)
-    text = result["text"]
+    text = stt_obj.stt(audio)
     state += text + " "
     return state, state
 
