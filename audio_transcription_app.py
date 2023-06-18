@@ -17,7 +17,7 @@ def main():
                          description="Upload an audio file and hit the 'Submit'\
                              button")
     
-    iface.launch()
+    iface.launch(share=False)
 
 
 if __name__ == '__main__':
