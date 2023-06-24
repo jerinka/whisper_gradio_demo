@@ -23,4 +23,4 @@ python C_live_stream_stt.py (TODO: not good, need to improve)
 ```
 
 This is part of Udemy Course: Deep Learning with Tensorflow and Pytorch\
-You may use this [link](https://www.udemy.com/course/gitlab-cicd-essentials-for-industry-comprehensive-tutorial/?referralCode=78BD52230019795171CF) to enroll at reduced price.
+You may use this [link](https://www.udemy.com/course/gitlab-cicd-essentials-for-industry-comprehensive-tutorial/?referralCode=78BD52230019795171CF) to enroll.
