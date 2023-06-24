@@ -23,9 +23,9 @@ python C_live_stream_stt.py (TODO: not good, need to improve)
 ```
 ## Links
 
-This is part of Udemy Course: Deep Learning with Tensorflow and Pytorch\
-[link](https://www.udemy.com/course/draft/5393356/?referralCode=A7ECC1BFDDB640FCED3E) to enroll.
+- This repo is part of Deep Learning with Tensorflow and Pytorch Udemy Course. Enroll - 
+[link](https://www.udemy.com/course/draft/5393356/?referralCode=A7ECC1BFDDB640FCED3E)
 
-GitLab CICD Udemy Course: enroll [link](https://www.udemy.com/course/gitlab-cicd-essentials-for-industry-comprehensive-tutorial/?referralCode=78BD52230019795171CF)
+- GitLab CICD Udemy Course: enroll -  [link](https://www.udemy.com/course/gitlab-cicd-essentials-for-industry-comprehensive-tutorial/?referralCode=78BD52230019795171CF)
 
 
